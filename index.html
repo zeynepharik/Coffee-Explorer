@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="yazi text-center">
+            <h1>Caffe!</h1>
+            <div class="uzun-cizgi"></div>
+        </div>
+        <br>
+        <div class="row mt-10">
+            <div class="col-md-6">
+                <div class="col-md mt-4">
+                    <div class="row" id="coffees">
+                        <!-- Yeni kahve kartları buraya eklenecek -->
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-6 mt-15">
+                <h2 id="search-label">Roast</h2>
+                <select id="roast-selection" class="form-control">
+                    <option value="all">All</option>
+                    <option value="light">Light</option>
+                    <option value="medium">Medium</option>
+                    <option value="dark">Dark</option>
+                </select>
+                <h2 id="search-label">Caffe Name</h2>
+                <input type="text" id="search" class="form-control">
+                <button id="search-btn" class="btn btn-primary">Submit</button>
+                <div class="yazi text-center">
+                    <div class="uzun-cizgi1"></div>
+                </div>
+                <h2 class="mt-5 text-center">Add a Coffee!</h2>
+                <form id="add-coffee-form">
+                    <select id="new-roast-selection" class="form-control" name="roast">
+                        <option value="light">Light</option>
+                        <option value="medium">Medium</option>
+                        <option value="dark">Dark</option>
+                    </select>
+                    <h2 id="search-label">Caffe Name</h2>
+                    <input type="text" id="new-coffee-name" class="form-control" name="coffeeName">
+                    <button type="button" id="add-coffee-btn" class="btn btn-primary mt-3">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

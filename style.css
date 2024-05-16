@@ -1,0 +1,59 @@
+/* Genel stiller */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6e4b35;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+#search-label {
+  font-size: 15px; 
+}
+
+.uzun-cizgi {
+  width: 100%; /* Uzunluğu tam sayfa genişliği kadar */
+  height: 1px; /* Çizginin yüksekliği */
+  background-color: rgb(227, 217, 217); /* Çizginin rengi */
+  margin-top: 10px; /* Yazıdan biraz aşağıda olması için */
+}
+.uzun-cizgi1 {
+  width: 100%; /* Uzunluğu tam sayfa genişliği kadar */
+  height: 1px; /* Çizginin yüksekliği */
+  background-color: rgb(227, 217, 217); /* Çizginin rengi */
+  margin-top: 20px; /* Yazıdan biraz aşağıda olması için */
+}
+
+/* Kart stilleri */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Arama kutusu ve butonu stilleri */
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  width: 100%;
+  
+}
